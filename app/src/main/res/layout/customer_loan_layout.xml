@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <EditText
+        android:id="@+id/etCustomerSerialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Customer Serial Number" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etSerialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Line Serial Number" />
+
+    <EditText
+        android:id="@+id/etInvestmentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Investment Amount"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etActualAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ActualAmount" />
+
+    <EditText
+        android:id="@+id/etLinePeriods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number of periods" />
+
+    <EditText
+        android:id="@+id/etCustomerReferredPersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Referred Person" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
