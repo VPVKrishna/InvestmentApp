@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inbox"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="save" />
+
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="gallery" />
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="add" />
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="call" />
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="camera" />
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="delete" />
+        <item
+            android:id="@+id/spam"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/recentHistory"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="recentHistory" />
+        <item
+            android:id="@+id/more"
+            android:checked="false"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="More" />
+
+    </group>
+</menu>
