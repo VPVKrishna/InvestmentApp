@@ -12,19 +12,39 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activity.HomeActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.NewCustomerActivity" />
-        <activity android:name=".activity.CustomerLoanActivity" />
-        <activity android:name=".activity.SearchResultActivity" />
-        <activity android:name=".activity.PaymentPeriodActivity" />
-        <activity android:name=".activity.CustomerDetailsActivity" />
-        <activity android:name=".activity.LineDetailActivity" />
+        <activity
+            android:name=".activity.NewCustomerActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.CustomerLoanActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.SearchResultActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.PaymentPeriodActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.CustomerDetailsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.LineDetailActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".design.SnakeBarMainActivity"
+            android:theme="@style/AppThemeDesign" />
+        <activity
+            android:name=".design.NavigationMainActivity"
+            android:theme="@style/AppThemeDesign" />
     </application>
 
 </manifest>

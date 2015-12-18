@@ -1,7 +1,7 @@
 package com.line.krishna.investmentapp.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +15,7 @@ import com.line.krishna.investmentapp.database.LineDatabase;
 /**
  * Created by Krishna on 12/12/2015.
  */
-public class LineDetailActivity extends Activity implements View.OnClickListener {
+public class LineDetailActivity extends AppCompatActivity implements View.OnClickListener {
 
     private int id;
     private String name;

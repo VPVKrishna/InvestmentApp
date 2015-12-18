@@ -1,7 +1,7 @@
 package com.line.krishna.investmentapp.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
@@ -14,7 +14,7 @@ import com.line.krishna.investmentapp.database.LineDatabase;
 /**
  * Created by Krishna on 12/12/2015.
  */
-public class CustomerDetailsActivity extends Activity implements View.OnClickListener{
+public class CustomerDetailsActivity extends AppCompatActivity implements View.OnClickListener{
 
     private WebView mWvShowResults;
     private EditText mEtCustomerId;

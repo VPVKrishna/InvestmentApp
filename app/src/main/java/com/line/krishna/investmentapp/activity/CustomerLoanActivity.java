@@ -1,8 +1,8 @@
 package com.line.krishna.investmentapp.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
@@ -23,7 +23,7 @@ import java.util.ArrayList;
 /**
  * Created by Krishna on 04/12/2015.
  */
-public class CustomerLoanActivity extends Activity implements View.OnClickListener {
+public class CustomerLoanActivity extends AppCompatActivity implements View.OnClickListener {
 
     private AutoCompleteTextView mEtLineSerialNumber;
     private EditText mEtInvestmentAmount;
@@ -109,6 +109,4 @@ public class CustomerLoanActivity extends Activity implements View.OnClickListen
                 break;
         }
     }
-
-
 }

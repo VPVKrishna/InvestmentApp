@@ -2,13 +2,15 @@ package com.line.krishna.investmentapp.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.line.krishna.investmentapp.R;
+import com.line.krishna.investmentapp.design.NavigationMainActivity;
+import com.line.krishna.investmentapp.design.SnakeBarMainActivity;
 
 
-public class HomeActivity extends ActionBarActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,16 @@ public class HomeActivity extends ActionBarActivity {
 
     public void showCustomerDetails(View view) {
         Intent intent=new Intent(this, CustomerDetailsActivity.class);
+        startActivity(intent);
+    }
+
+    public void designSnackBar(View view) {
+        Intent intent=new Intent(this, SnakeBarMainActivity.class);
+        startActivity(intent);
+    }
+
+    public void designNavigation(View view) {
+        Intent intent=new Intent(this, NavigationMainActivity.class);
         startActivity(intent);
     }
 }

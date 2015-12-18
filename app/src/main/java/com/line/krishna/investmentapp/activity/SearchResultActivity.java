@@ -1,7 +1,7 @@
 package com.line.krishna.investmentapp.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -14,7 +14,7 @@ import com.line.krishna.investmentapp.database.LineDatabase;
 /**
  * Created by Krishna on 05/12/2015.
  */
-public class SearchResultActivity extends Activity implements View.OnClickListener {
+public class SearchResultActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText mEtQuery;
     private EditText mEtTable;

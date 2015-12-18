@@ -1,7 +1,7 @@
 package com.line.krishna.investmentapp.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +15,7 @@ import com.line.krishna.investmentapp.database.LineDatabase;
 /**
  * Created by Krishna on 05/12/2015.
  */
-public class PaymentPeriodActivity extends Activity implements View.OnClickListener {
+public class PaymentPeriodActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText mEtSerialNumber;
     private EditText mEtPeriodAmount;
